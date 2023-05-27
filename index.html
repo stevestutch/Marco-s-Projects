@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meerwasser-INFO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+            font-family: 'Open Sans', sans-serif;
+            background-color: rgb(184, 220, 236);
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+
+        .corals-image{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            object-position: 20% 80%;
+            display: block;
+        }
+
+        .headline {
+            color:rgb(148, 59, 59)
+        }
+
+        .image-container {
+            background-color: white;
+            padding: 16px;
+        }
+        .navigation-bar{ 
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        a{
+            color: rgb(148, 59, 59);
+            text-decoration: none;
+            margin-left: 16px;
+            font-weight: 600;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .text-highlight{
+            color: rgb(80, 80, 80);
+        }
+
+        .text-container{
+            color: rgb(80, 80, 80);
+            font-weight: 600;
+            background-color: rgb(184, 220, 236);
+            padding: 16px;
+
+        }
+
+        .maps-container{
+            margin-top: 16px;
+            display:flex;
+            justify-content:space-between;
+        }
+
+        .maps-right{
+            margin-left: 16px;
+            width: 30%;
+        }
+
+        .maps-frame{
+            border: 0;
+            height: 350px;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>  
+    <div class="navigation-bar"> 
+
+        <h1 class="headline"> Mein<br> <span class="text-highlight">Meerwasseraquarium</span>
+        </h1> 
+
+        <div>            
+            <a href="Infos.html">Infos</a>
+            <a href="Mein Becken.html">Mein Becken</a>
+            <a href="Technik.html">Technik</a>
+            <a href="Besatz.html">Besatz</a>
+        </div>    
+    </div>
+
+
+
+<div class="image-container">
+    <img class="corals-image" src="corals.jpg">
+
+    <div class="text-container">
+        Entstehung meines Meerwasseraquariums
+
+    </div>
+
+    <div class="maps-container">
+
+        <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d336.4015866710499!2d-14.013096887923892!3d28.6647354918401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc464caafc7aba09%3A0x102e330e9f75d580!2s35650%20El%20Cotillo%2C%20Provinz%20Las%20Palmas%2C%20Spanien!5e1!3m2!1sde!2sde!4v1685134048753!5m2!1sde!2sde
+         "allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="text-container maps-right"> 
+            Der Schönste Ort für mich. <br> "Find Refuge in the Sea"
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
